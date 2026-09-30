@@ -4,6 +4,8 @@ An agentic AI system built with the [Mastra](https://mastra.ai) framework: six
 agents that generate, research, enrich, score, export and email sales leads,
 plus an assistant agent for free-form questions.
 
+<img width="3240" height="1760" alt="image" src="https://github.com/user-attachments/assets/e1e687f7-f4b9-404d-9210-eabdfd159bcf" />
+
 There are **two ways to use it**, both backed by the same agents in `src/mastra`:
 
 | | What it is | Start with |
