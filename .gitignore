@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+
+# Mastra build output only - a bare "mastra" pattern would also match
+# src/mastra and silently exclude the agent source from the repository.
+/.mastra
+/dist
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env files
+.env
+.env.local
+.env.development
+
+# databases
+*.db
+*.db-*
+
+# generated lead exports
+/output
+output.txt
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+/.claude

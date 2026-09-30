@@ -1,0 +1,51 @@
+{
+  "name": "ai-sales-lead-qualification",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agentic marketing agency demo: six Mastra agents that generate, research, enrich, score, export and email sales leads.",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test:pipeline": "tsx --env-file=.env test-pipeline.ts",
+    "demo:injection": "tsx demo-injection.ts",
+    "mcp": "tsx --env-file=.env mcp-server.ts",
+    "mastra:dev": "mastra dev",
+    "mastra:build": "mastra build"
+  },
+  "dependencies": {
+    "@mastra/core": "^0.24.9",
+    "@mastra/evals": "^0.14.4",
+    "@mastra/libsql": "^0.16.4",
+    "@mastra/loggers": "^0.10.19",
+    "@mastra/memory": "^0.15.13",
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "exa-js": "^2.0.12",
+    "next": "16.1.6",
+    "nodemailer": "^7.0.12",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "zod": "^4.3.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^25.0.3",
+    "@types/nodemailer": "^7.0.4",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "mastra": "^0.18.9",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  }
+}
